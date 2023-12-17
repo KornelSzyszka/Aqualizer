@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish List</title>
+</head>
+<body>
+    <h1>Fish List</h1>
+    <ul>
+        {% for fish in fish_list %}
+            <li><a href="{% url 'fish-detail' fish.id %}">{{ fish.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

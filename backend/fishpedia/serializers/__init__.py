@@ -1,0 +1,1 @@
+from .fishes_serializer import FishSerializer

@@ -1,0 +1,1 @@
+from .fishes_view import FishListCreateView, FishDetailView
